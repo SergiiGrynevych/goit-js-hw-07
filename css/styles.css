@@ -1,0 +1,12 @@
+.style__gallery {
+  display: flex;
+  flex-direction: row;
+
+  margin: -5px;
+  padding: 0;
+
+  list-style: none;
+}
+.image__item img {
+  margin: 5px;
+}
