@@ -1,3 +1,4 @@
+/* for task 3  */
 .style__gallery {
   display: flex;
   flex-direction: row;
@@ -9,4 +10,17 @@
 }
 .image__item img {
   margin: 5px;
+}
+
+/* for task 6 */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
 }
