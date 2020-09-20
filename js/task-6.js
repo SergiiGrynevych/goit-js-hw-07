@@ -1,5 +1,4 @@
 const inputEl = document.querySelector('#validation-input');
-let totalLenght = inputEl.getAttribute('data-length');
 
 function removeOrAddClass() {
   if (inputEl.value.length === 6) {
